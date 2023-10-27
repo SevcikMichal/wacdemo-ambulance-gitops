@@ -3,5 +3,7 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - ../../../infrastructure/ufe-controller
+- ../../../infrastructure/microfrontend-controller
 patches: 
 - path: patches/ufe-controller.service.yaml
+- path: patches/microfrontend-controller.service.yaml
