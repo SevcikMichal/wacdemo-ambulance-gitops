@@ -9,7 +9,7 @@ images:
   newTag: 1.6.6 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
 - name: sevcikmichal/microfrontends-controller
   newName: sevcikmichal/microfrontends-controller # {"$imagepolicy":  "wac-hospital:microfrontend-controller:name"} 
-  newTag: v0.0.1 # {"$imagepolicy": "wac-hospital:microfrontend-controller:tag"}
+  newTag: v0.0.2 # {"$imagepolicy": "wac-hospital:microfrontend-controller:tag"}
 - name: sevcikmichal/microfrontends-webui
   newName: sevcikmichal/microfrontends-webui # {"$imagepolicy":  "wac-hospital:microfrontend-webui:name"} 
-  newTag: v0.0.1 # {"$imagepolicy": "wac-hospital:microfrontend-webui:tag"}
+  newTag: v0.0.3 # {"$imagepolicy": "wac-hospital:microfrontend-webui:tag"}
