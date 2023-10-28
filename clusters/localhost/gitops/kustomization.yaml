@@ -12,4 +12,8 @@ resources:
 - wacdemo-ambulance-ufe.image-policy.yaml 
 - ufe-controller.image-repository.yaml 
 - ufe-controller.image-policy.yaml 
+- microfrontends-controller.image-repository.yaml 
+- microfrontends-controller.image-policy.yaml 
+- microfrontends-webui.image-repository.yaml 
+- microfrontends-webui.image-policy.yaml 
 - image-update-automation.yaml 
