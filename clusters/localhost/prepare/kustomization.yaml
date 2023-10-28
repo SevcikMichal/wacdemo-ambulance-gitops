@@ -6,3 +6,5 @@ resources:
 - ../../../infrastructure/fluxcd
 patches: 
 - path: patches/ufe-controller.service.yaml
+components: 
+ - ../../../components/version-developers
