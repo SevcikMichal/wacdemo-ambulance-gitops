@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: wacdemo-ambulance-ufe-deployment
 spec:
-  replicas: 2 
+  replicas: 1
   selector:
     matchLabels:
         pod: wacdemo-ambulance-ufe-label

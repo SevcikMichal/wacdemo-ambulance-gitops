@@ -4,6 +4,9 @@ resources:
 - namespace.yaml
 - ../../../infrastructure/ufe-controller
 - ../../../infrastructure/microfrontend-controller
+- ../../../infrastructure/fluxcd
 patches: 
 - path: patches/ufe-controller.service.yaml
 - path: patches/microfrontend-controller.service.yaml
+components: 
+ - ../../../components/version-developers
