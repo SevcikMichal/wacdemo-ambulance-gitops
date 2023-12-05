@@ -2,10 +2,10 @@ kind: Service
 apiVersion: v1
 metadata:
   name: wacdemo-ambulance-webapi
-spec:
+spec:  
+  type: NodePort
   ports:
   - name: http
     protocol: TCP
     port: 80
-    type: NodePort
     nodePort: 30081
