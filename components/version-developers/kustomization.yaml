@@ -8,5 +8,5 @@ images:
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"} 
   newTag: 1.7.2 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
 - name: msevcik/wacdemo-ambulance-wl-webapi
-  newName: msevcik/wacdemo-ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newName: msevcik/wacdemo-ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:wacdemo-ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:wacdemo-ambulance-webapi:tag"}
