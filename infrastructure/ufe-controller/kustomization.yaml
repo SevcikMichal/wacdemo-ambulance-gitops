@@ -16,5 +16,4 @@ patches:
     group: apps
     version: v1
     kind: Deployment
-    namespace: ufe-controller
-    name: wac-hospital
+    name: ufe-controller
