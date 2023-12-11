@@ -25,5 +25,5 @@ spec:
           path:
             type: ReplaceFullPath
             replaceFullPath: /ui
-        scheme: https
-        port: 443
+          scheme: https
+          port: 443
