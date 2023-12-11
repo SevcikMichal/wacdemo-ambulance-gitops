@@ -20,7 +20,7 @@ patches:
     kind: Deployment
     name: ufe-controller
 - patch: |-
-    - op: add
+    - op: replace
       path: "/spec/template/spec/containers/2/env/-"
       value:
         name: "HTTP_CSP_HEADER"
