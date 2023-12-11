@@ -9,7 +9,7 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /ui
+            value: /uiold
       backendRefs:
         - group: ""
           kind: Service
@@ -24,6 +24,6 @@ spec:
         requestRedirect:
           path:
             type: ReplaceFullPath
-            replaceFullPath: /ui
+            replaceFullPath: /uiold
           scheme: https
           port: 443

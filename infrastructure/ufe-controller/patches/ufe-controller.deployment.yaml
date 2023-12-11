@@ -9,4 +9,4 @@ spec:
       - name: ufe-controller
         env:
           - name: BASE_URL
-            value: /ui/
+            value: /uiold/

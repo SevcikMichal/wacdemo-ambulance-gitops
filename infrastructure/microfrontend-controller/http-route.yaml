@@ -10,21 +10,9 @@ spec:
     - matches:
         - path:
             type: PathPrefix
-            value: /uigo
+            value: /ui
       backendRefs:
         - group: ""
           kind: Service
           name: microfrontends-controller-manager
           port: 80
-    - matches:
-      - path:
-          type: Exact
-          value: /
-      filters:
-      - type: RequestRedirect
-        requestRedirect:
-          path:
-            type: ReplaceFullPath
-            replaceFullPath: /ui
-          scheme: https
-          port: 443
