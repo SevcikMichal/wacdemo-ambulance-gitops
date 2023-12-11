@@ -1,0 +1,29 @@
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: microfrontend-controller
+spec:
+  parentRefs:
+    - name: wac-hospital-gateway
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /uigo
+      backendRefs:
+        - group: ""
+          kind: Service
+          name: microfrontends-controller-manager
+          port: 80
+    - matches:
+      - path:
+          type: Exact
+          value: /
+      filters:
+      - type: RequestRedirect
+        requestRedirect:
+          path:
+            type: ReplaceFullPath
+            replaceFullPath: /ui
+        scheme: https
+        port: 443

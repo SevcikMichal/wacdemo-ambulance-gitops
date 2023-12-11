@@ -8,7 +8,7 @@ spec:
     - element: wacdemo-ambulance-wl-app
       attributes:
       - name: api-base 
-        value: http://localhost:30081/api
+        value: /wacdemo-api
       - name: ambulance-id 
         value: bobulova 
       path: wacdemo-ambulance-wl
