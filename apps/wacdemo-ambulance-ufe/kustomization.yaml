@@ -4,5 +4,6 @@ resources:
 - deployment.yaml
 - service.yaml
 - webcomponent.yaml
+- webcomponent-go.yaml
 commonLabels:
   app.kubernetes.io/component: wacdemo-ambulance-ufe
