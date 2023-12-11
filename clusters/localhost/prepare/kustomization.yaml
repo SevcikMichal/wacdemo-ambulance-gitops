@@ -5,6 +5,7 @@ resources:
 - ../../../infrastructure/ufe-controller
 - ../../../infrastructure/microfrontend-controller
 - ../../../infrastructure/fluxcd
+- ../../../infrastructure/envoy-gateway
 patches: 
 - path: patches/ufe-controller.service.yaml
 - path: patches/microfrontend-controller.service.yaml
