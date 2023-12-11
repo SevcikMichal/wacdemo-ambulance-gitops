@@ -2,6 +2,7 @@ apiVersion: gateway.networking.k8s.io/v1
 kind: HTTPRoute
 metadata:
   name: microfrontend-controller
+  namespace: microfrontends-controller-system
 spec:
   parentRefs:
     - name: wac-hospital-gateway
