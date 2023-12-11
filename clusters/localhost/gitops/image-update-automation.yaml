@@ -11,7 +11,7 @@ spec:
   git:
     checkout:
       ref:
-        branch: microfrontend-controller-go 
+        branch: main 
     commit:
       author:
         email: fluxcdbot@users.noreply.github.com
@@ -31,7 +31,7 @@ spec:
          - {{.}}
          {{ end -}}
     push:
-      branch: microfrontend-controller-go  
+      branch: main  
   update:
     path: ./components/version-developers
     strategy: Setters
