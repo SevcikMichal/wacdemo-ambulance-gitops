@@ -3,5 +3,6 @@ kind: Kustomization
 resources:
 - https://github.com/SevcikMichal/microfrontends-controller//config/default
 - http-route.yaml
+namespace: wac-hospital
 commonLabels:
   app.kubernetes.io/component: microfrontend-controller
