@@ -33,4 +33,3 @@ patches:
     name: microfrontends-controller-controller-manager
 components: 
  - ../../../components/version-developers
-namespace: wac-hospital

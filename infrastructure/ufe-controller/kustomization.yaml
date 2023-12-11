@@ -5,5 +5,6 @@ resources:
 - http-route.yaml
 patches:
 - path: patches/ufe-controller.deployment.yaml
+namespace: wac-hospital
 commonLabels:
   app.kubernetes.io/component: ufe-controller
