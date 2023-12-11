@@ -17,3 +17,5 @@ resources:
 - microfrontend-webui.image-repository.yaml 
 - microfrontend-webui.image-policy.yaml 
 - image-update-automation.yaml 
+- wacdemo-ambulance-webapi.image-repository.yaml
+- wacdemo-ambulance-webapi.image-policy.yaml

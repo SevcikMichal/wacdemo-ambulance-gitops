@@ -3,10 +3,13 @@ kind: Component
 images:
 - name: msevcik/wacdemo-ambulance-ufe
   newName: msevcik/wacdemo-ambulance-ufe # {"$imagepolicy":  "wac-hospital:wacdemo-ambulance-ufe:name"} 
-  newTag: main.20231028.1952 # {"$imagepolicy": "wac-hospital:wacdemo-ambulance-ufe:tag"} 
+  newTag: main.20231105.1416 # {"$imagepolicy": "wac-hospital:wacdemo-ambulance-ufe:tag"} 
 - name: milung/ufe-controller
   newName: milung/ufe-controller # {"$imagepolicy":  "wac-hospital:ufe-controller:name"} 
-  newTag: 1.6.6 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+  newTag: 1.7.2 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
+- name: msevcik/wacdemo-ambulance-wl-webapi
+  newName: msevcik/wacdemo-ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:wacdemo-ambulance-webapi:name"}
+  newTag: main.20231205.0843 # {"$imagepolicy": "wac-hospital:wacdemo-ambulance-webapi:tag"}
 - name: sevcikmichal/microfrontends-controller
   newName: sevcikmichal/microfrontends-controller # {"$imagepolicy":  "wac-hospital:microfrontend-controller:name"} 
   newTag: v0.0.2 # {"$imagepolicy": "wac-hospital:microfrontend-controller:tag"}
