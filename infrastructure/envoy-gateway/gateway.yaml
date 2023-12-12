@@ -29,7 +29,7 @@ spec:
         mode: Terminate
         certificateRefs:
         - kind: Secret
-        name: wac-hospital-tls
+          name: wac-hospital-tls
     - hostname: localhost
       name: https-localhost
       protocol: HTTPS
@@ -38,4 +38,4 @@ spec:
         mode: Terminate
         certificateRefs:
         - kind: Secret
-        name: wac-hospital-tls
+          name: wac-hospital-tls
