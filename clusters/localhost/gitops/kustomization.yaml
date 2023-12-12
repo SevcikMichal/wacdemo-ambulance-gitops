@@ -19,3 +19,17 @@ resources:
 - image-update-automation.yaml 
 - wacdemo-ambulance-webapi.image-repository.yaml
 - wacdemo-ambulance-webapi.image-policy.yaml
+- secrets.kustomization.yaml
+patches:
+- target:
+    group: kustomize.toolkit.fluxcd.io
+    version: v1
+    kind: Kustomization
+  patch: |-
+    path: /spec
+    op: add
+    value:
+      decryption:
+        provider: sops
+        secretRef:
+          name: sops-age

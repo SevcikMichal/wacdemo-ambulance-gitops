@@ -12,3 +12,4 @@ components:
 - https://github.com/sevcikmichal/wacdemo-ambulance-webapi//deployments/kustomize/components/mongodb
 patches:
 - path: patches/wacdemo-ambulance-webapi.service.yaml
+- path: patches/mongodb-auth.secret.yaml
