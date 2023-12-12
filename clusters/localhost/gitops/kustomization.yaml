@@ -26,10 +26,10 @@ patches:
     version: v1
     kind: Kustomization
   patch: |-
-    path: /spec
-    op: add
-    value:
-      decryption:
-        provider: sops
-        secretRef:
-          name: sops-age
+    - path: /spec
+      op: add
+      value:
+        decryption:
+          provider: sops
+          secretRef:
+            name: sops-age
