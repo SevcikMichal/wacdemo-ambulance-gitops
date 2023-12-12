@@ -30,6 +30,9 @@ spec:
         certificateRefs:
         - kind: Secret
           name: wac-hospital-tls
+      allowedRoutes:
+        namespaces:
+          from: All
     - hostname: localhost
       name: https-localhost
       protocol: HTTPS
@@ -39,3 +42,6 @@ spec:
         certificateRefs:
         - kind: Secret
           name: wac-hospital-tls
+      allowedRoutes:
+        namespaces:
+          from: All
