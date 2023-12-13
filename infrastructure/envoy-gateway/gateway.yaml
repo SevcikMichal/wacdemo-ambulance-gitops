@@ -22,7 +22,7 @@ spec:
         namespaces:
           from: All
     - hostname: wac-hospital.loc
-      name: https-dns
+      name: fqdn
       protocol: HTTPS
       port: 443
       tls:
