@@ -75,3 +75,7 @@ headers["x-auth-request-roles"] := concat(", ", [ role |
     user_role[r]
     role := r
 ])
+
+# provide result to caller
+result["allowed"] := allow
+result["headers"] := headers
