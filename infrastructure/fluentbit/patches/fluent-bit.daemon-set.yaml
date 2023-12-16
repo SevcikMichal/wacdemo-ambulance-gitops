@@ -10,6 +10,6 @@ spec:
       - name: fluent-bit
         env:
         - name: FLUENT_OPENSEARCH_HOST
-          value: monitoring-opensearch-server.wac-hospital
+          value: monitoring-opensearch.wac-hospital
         - name: FLUENT_OPENSEARCH_PORT
           value: "9200"

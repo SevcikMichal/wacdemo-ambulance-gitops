@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: monitoring-opensearch-server
+  name: monitoring-opensearch
 spec:
   accessModes:
     - ReadWriteOnce
