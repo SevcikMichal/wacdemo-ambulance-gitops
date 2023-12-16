@@ -16,11 +16,13 @@ data:
         Parsers_File  parsers.conf
         HTTP_Server   On
         HTTP_Listen   0.0.0.0
-        HTTP_Port     202
+        HTTP_Port     2020
+
     @INCLUDE input-kubernetes.conf
     @INCLUDE filter-kubernetes.conf
-    @INCLUDE output-opensearch.con
-  output-opensearch.conf: |
+    @INCLUDE output-opensearch.conf
+
+  output-opensearch.conf: |  
     [OUTPUT]
         Name                opensearch
         Match               *
@@ -28,5 +30,6 @@ data:
         Port                ${FLUENT_OPENSEARCH_PORT}
         Suppress_Type_Name  On
         Replace_Dots        On
-        Retry_Limit
+        Retry_Limit         2
+
   output-elasticsearch.conf: null
