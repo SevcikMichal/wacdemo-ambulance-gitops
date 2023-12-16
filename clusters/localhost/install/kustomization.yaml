@@ -8,6 +8,7 @@ resources:
 - ../../../apps/wacdemo-ambulance-webapi
 - ../../../apps/mongo-express
 - ../../../apps/http-echo
+- ../../../apps/observability-webc
 components: 
 - ../../../components/version-developers
 - https://github.com/sevcikmichal/wacdemo-ambulance-webapi//deployments/kustomize/components/mongodb
