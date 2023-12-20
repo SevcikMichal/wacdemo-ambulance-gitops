@@ -8,4 +8,5 @@ resources:
 - monitoring-opensearch.webcomponent.go.yaml
 - monitoring-opensearch.http-route.yaml
 - grafana.webcomponent.yaml
+- grafana.webcomponent.go.yaml
 - grafana.http-route.yaml

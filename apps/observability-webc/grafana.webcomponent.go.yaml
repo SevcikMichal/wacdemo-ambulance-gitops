@@ -1,0 +1,17 @@
+apiVersion: microfrontend.michalsevcik.dev/v1alpha1
+kind: WebComponent
+metadata:
+  name: grafana
+spec:
+  module-uri: built-in
+  navigations:
+  - attributes:
+    - name: src
+      value: /grafana
+    details: Aktuálny operačný stav systému
+    element: ufe-frame
+    path: grafana
+    priority: 0
+    title: System Dashboards
+  preload: false
+  proxy: true
