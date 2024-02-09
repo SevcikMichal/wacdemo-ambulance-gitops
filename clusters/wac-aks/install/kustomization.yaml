@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/wacdemo-ambulance-ufe
+ - ../../../apps/wacdemo-ambulance-webapi
 
 
 components:

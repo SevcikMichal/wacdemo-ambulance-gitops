@@ -4,6 +4,10 @@ images:
 - name: msevcik/wacdemo-ambulance-ufe
   newName: msevcik/wacdemo-ambulance-ufe
   newTag: v1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: msevcik/wacdemo-ambulance-wl-webapi
+  newName: msevcik/wacdemo-ambulance-wl-webapi
+  newTag: v1.0.5
+
 
 replacements:
  - targets:
