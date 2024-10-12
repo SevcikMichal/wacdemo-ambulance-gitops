@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - ../../../infrastructure/polyfea-controller
+- ../../../infrastructure/fluxcd
 
 patches:
 - path: patches/polyfea-controller.service.yaml
