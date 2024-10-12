@@ -7,3 +7,6 @@ resources:
 
 patches:
 - path: patches/polyfea-controller.service.yaml
+
+components:
+- ../../../components/version-developers

@@ -11,3 +11,8 @@ resources:
 - cd.kustomization.yaml
 - install.kustomization.yaml
 - git-repository.yaml
+- ambulance-ufe.image-repository.yaml
+- ambulance-ufe.image-policy.yaml
+- polyfea-controller.image-repository.yaml
+- polyfea-controller.image-policy.yaml
+- image-update-automation.yaml
