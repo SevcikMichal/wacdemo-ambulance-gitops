@@ -1,0 +1,6 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: material-design
+spec:
+  service: http://polyfea-md-shell.wac-hospital.svc.cluster.local

@@ -1,0 +1,8 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: MicroFrontend
+metadata:
+  name: wacdemo-ambulance-ufe
+spec:
+  frontendClass: fea
+  service: http://wacdemo-ambulance-ufe.wac-hospital
+  modulePath: build/ambulance-ufe.esm.js
