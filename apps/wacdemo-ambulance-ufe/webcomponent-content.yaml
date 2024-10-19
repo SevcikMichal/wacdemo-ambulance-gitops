@@ -4,7 +4,7 @@ metadata:
   name: wacdemo-ambulance-ufe-content
 spec:
   microFrontend: wacdemo-ambulance-ufe
-  element: wacdemo-ambulance-wl-list
+  element: wacdemo-ambulance-wl-app
   displayRules:
     - allOf:
       - context-name: main-content
