@@ -5,6 +5,9 @@ metadata:
 spec:
   microFrontend: wacdemo-ambulance-ufe
   element: wacdemo-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /wacdemo-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
