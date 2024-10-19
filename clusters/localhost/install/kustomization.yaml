@@ -13,3 +13,6 @@ resources:
 patches:
 - path: patches/material-design.microfrontend.yaml
 - path: patches/polyfea-md-shell.microfrontend.yaml
+
+components:
+- ../../../components/version-developers
