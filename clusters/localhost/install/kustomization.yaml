@@ -8,11 +8,14 @@ commonLabels:
 
 resources:
 - ../../../apps/wacdemo-ambulance-ufe
+- ../../../apps/wacdemo-ambulance-webapi
 - ../../../apps/polyfea-md-shell
 
 patches:
 - path: patches/material-design.microfrontend.yaml
 - path: patches/polyfea-md-shell.microfrontend.yaml
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/SevcikMichal/wacdemo-ambulance-webapi///deployments/kustomize/components/mongodb
