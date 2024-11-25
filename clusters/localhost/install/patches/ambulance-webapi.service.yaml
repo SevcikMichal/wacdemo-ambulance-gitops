@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-name: wacdemo-ambulance-webapi
+  name: wacdemo-ambulance-webapi
 spec:
   type: NodePort
   ports:
