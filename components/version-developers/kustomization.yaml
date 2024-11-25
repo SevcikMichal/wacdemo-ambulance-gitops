@@ -9,4 +9,4 @@ images:
   newTag: 0.1.5 # {"$imagepolicy": "wac-hospital:polyfea-controller:tag"}
 - name: msevcik/ambulance-wl-webapi
   newName: msevcik/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-  newTag: main.20241125.1720 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+  newTag: main.20241125.1945 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
