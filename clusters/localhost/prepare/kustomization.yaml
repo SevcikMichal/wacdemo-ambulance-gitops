@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - ../../../infrastructure/polyfea-controller
 - ../../../infrastructure/fluxcd
+- ../../../infrastructure/envoy-gateway
 
 patches:
 - path: patches/polyfea-controller.service.yaml
