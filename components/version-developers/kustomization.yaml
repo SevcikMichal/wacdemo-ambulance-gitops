@@ -3,7 +3,7 @@ kind: Component
 images:
 - name: sevcikmichal/ambulance-ufe
   newName: sevcikmichal/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
-  newTag: main.20241019.0930 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+  newTag: main.20241027.2119 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
 - name: ghcr.io/polyfea/polyfea-controller
   newName: ghcr.io/polyfea/polyfea-controller # {"$imagepolicy":  "wac-hospital:polyfea-controller:name"}
   newTag: 0.1.5 # {"$imagepolicy": "wac-hospital:polyfea-controller:tag"}
