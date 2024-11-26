@@ -11,7 +11,7 @@ spec:
       namespace: envoy-gateway-system
     - apiVersion: apps/v1
       kind: Deployment
-      name: ufe-controller
+      name: polyfea-controller-controller-manager
       namespace: wac-hospital
   interval: 120s
   path: clusters/localhost/prepare
