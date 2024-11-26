@@ -10,6 +10,7 @@ resources:
 - ../../../apps/wacdemo-ambulance-ufe
 - ../../../apps/wacdemo-ambulance-webapi
 - ../../../apps/polyfea-md-shell
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/material-design.microfrontend.yaml
