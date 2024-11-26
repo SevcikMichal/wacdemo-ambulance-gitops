@@ -5,6 +5,7 @@ resources:
 - deployment.yaml
 - service.yaml
 - webcomponent-link.yaml
+- webcomponent-content.yaml
 - http-route.yaml
 
 commonLabels:
