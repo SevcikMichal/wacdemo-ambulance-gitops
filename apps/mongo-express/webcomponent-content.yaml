@@ -1,7 +1,7 @@
 apiVersion: polyfea.github.io/v1alpha1
 kind: WebComponent
 metadata:
-  name: wacdemo-ambulance-ufe-content
+  name: mongo-express-ufe-content
 spec:
   element: iframe
   attributes:
