@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - https://github.com/polyfea/polyfea-controller//config/default
+- http-route.yaml
 
 namespace: wac-hospital
 
