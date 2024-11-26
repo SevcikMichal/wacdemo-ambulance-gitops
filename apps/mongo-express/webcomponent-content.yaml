@@ -11,3 +11,8 @@ spec:
     - allOf:
       - context-name: main-content
       - path: "^(\\.?/)?mongo-express(/.*)?$"
+  style:
+  - name: width
+    value: 100%
+  - name: height
+    value: 100%
