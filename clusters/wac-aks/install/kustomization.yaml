@@ -14,3 +14,17 @@ resources:
 
 components:
 - ../../../components/version-release
+
+patches:
+- target:
+    group: polyfea.github.io
+    version: v1alpha1
+    kind: MicroFrontend
+    name: wacdemo-ambulance-ufe
+  patch: |-
+    apiVersion: polyfea.github.io/v1alpha1
+    kind: MicroFrontend
+    metadata:
+      name: wacdemo-ambulance-ufe
+    spec:
+      frontendClass: "wac-hospital"
