@@ -8,7 +8,8 @@ commonLabels:
   app.kubernetes.io/name: wacdemo-ambulance-wl
 
 resources:
-- ../../../apps/wacdemo-ambulance-ufe
+- ../../../apps/wacdemo-ambulance-
+- ../../../apps/wacdemo-ambulance-webapi
 
 
 components:

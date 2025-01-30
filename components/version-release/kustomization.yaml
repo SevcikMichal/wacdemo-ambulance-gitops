@@ -4,4 +4,6 @@ images:
 - name: sevcikmichal/ambulance-ufe
   newName: sevcikmichal/ambulance-ufe
   newTag: 1.0.3  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
-
+- name: msevcik/ambulance-wl-webapi
+  newName: msevcik/ambulance-wl-webapi
+  newTag: 1.0.1
